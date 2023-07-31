@@ -57,3 +57,10 @@ function checkArr() {
   return Arr;
 }
 console.log(checkArr());
+
+//5
+function splitString(str) {
+  return str.split(" ");
+}
+
+console.log(splitString("Hello World"));
