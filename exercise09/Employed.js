@@ -57,25 +57,3 @@ console.log(rian.salary());
 console.log(rian.addWorkTime(9));
 
 console.log(jihan.salary());
-
-// Game Shooting=shoting
-
-class Shooting {
-  constructor(player1, player2) {
-    this.player1 = player1;
-    this.player2 = player2;
-  }
-
-  getRandomItem() {
-    return Math.random();
-  }
-
-  start() {}
-}
-
-class Player {
-  constructor() {
-    this.name = name;
-    this.health = this.health;
-  }
-}

@@ -1,10 +1,9 @@
-const Queue = require("./Queue");
+const Queue = require("./queue")
 
-const q1 = new Queue();
+const queue = new Queue()
+queue.enqueue('Pizza')
+queue.enqueue('Burger')
+queue.enqueue('Coca-Cola')
+queue.enqueue('Ice Cream')
 
-q1.addOrder("Pizza");
-q1.addOrder("Pasta");
-q1.addOrder("Macaroni");
-q1.addOrder("Burger");
-
-console.log(q1.queueList);
+queue.processQueue()
